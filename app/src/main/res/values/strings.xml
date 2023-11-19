@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellidos</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualiza">Actualizar</string>
+    <string name="listar">Listar</string>
+    <string name="borro">Codigo Borrar/actualizar</string>
+    <string name="codigo">Codigo</string>
+    <string name="celular">Celular</string>
+    <string name="Ident">Nro Ident</string>
+    <string name="nombreInmueble">Nombre Inmueble</string>
+    <string name="tipoInmueble">Tipo Inmueble</string>
+    <string name="direccionInmueble">direccion Inmueble</string>
+    <string name="fechaInicial">Fecha Inicial</string>
+    <string name="fechaFinal">Fecha Final</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="inquilino">selección Inquilino</string>
+    <string name="inmueble">selección Inmueble</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VehiculoCrudActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2pt">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt"/>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerCliente"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="@string/inquilino" />
+
+    <EditText
+        android:id="@+id/Matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Matricula"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Color"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Npuerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nro puertas"
+        android:inputType="textPersonName" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="163dp">
+
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </ScrollView>
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="creaVehiculo"
+        android:text="@string/guardar" />
+    <Button
+        android:id="@+id/leer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="leerDatosVehiculo"
+        android:text="@string/listar" />
+    <EditText
+        android:id="@+id/Codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/borro" />
+    <Button
+        android:id="@+id/Borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminaTrabajador"
+        android:text="Borrar" />
+    <Button
+        android:id="@+id/Actualiza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actualizaCliente"
+        android:text="@string/actualiza" />
+
+</LinearLayout>
